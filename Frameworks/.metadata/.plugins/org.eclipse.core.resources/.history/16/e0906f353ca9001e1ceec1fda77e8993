@@ -1,0 +1,32 @@
+package com.learn.Spring.SpringPjrt1;
+
+public class PythonTeacher {
+	int PTeacher_id;
+	String PTeacher_name;
+	public PythonTeacher() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public PythonTeacher(int pTeacher_id, String pTeacher_name) {
+		super();
+		PTeacher_id = pTeacher_id;
+		PTeacher_name = pTeacher_name;
+	}
+	public int getPTeacher_id() {
+		return PTeacher_id;
+	}
+	public void setPTeacher_id(int pTeacher_id) {
+		PTeacher_id = pTeacher_id;
+	}
+	public String getPTeacher_name() {
+		return PTeacher_name;
+	}
+	public void setPTeacher_name(String pTeacher_name) {
+		PTeacher_name = pTeacher_name;
+	}
+	@Override
+	public String toString() {
+		return "PythonTeacher [PTeacher_id=" + PTeacher_id + ", PTeacher_name=" + PTeacher_name + "]";
+	}
+	
+}

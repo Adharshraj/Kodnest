@@ -1,0 +1,32 @@
+package com.learn.Spring.SpringPjrt1;
+
+public class SQLTeacher {
+	int STeacher_id;
+	String STeacher_name;
+	public SQLTeacher() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public SQLTeacher(int sTeacher_id, String sTeacher_name) {
+		super();
+		STeacher_id = sTeacher_id;
+		STeacher_name = sTeacher_name;
+	}
+	public int getSTeacher_id() {
+		return STeacher_id;
+	}
+	public void setSTeacher_id(int sTeacher_id) {
+		STeacher_id = sTeacher_id;
+	}
+	public String getSTeacher_name() {
+		return STeacher_name;
+	}
+	public void setSTeacher_name(String sTeacher_name) {
+		STeacher_name = sTeacher_name;
+	}
+	@Override
+	public String toString() {
+		return "SQLTeacher [STeacher_id=" + STeacher_id + ", STeacher_name=" + STeacher_name + "]";
+	}
+	
+}

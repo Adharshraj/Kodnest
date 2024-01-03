@@ -1,0 +1,32 @@
+package com.learn.Hibernate.HibernateOTMMapping;
+
+import org.hibernate.*;
+import org.hibernate.cfg.*;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+        Configuration cfg=new Configuration();
+        cfg.configure();
+        SessionFactory factory=cfg.buildSessionFactory();
+        Session session=factory.openSession();
+        Transaction tr=session.beginTransaction();
+        SoftwareEng se1=new SoftwareEng(1,"Sumit",29);
+        SoftwareEng se2=new SoftwareEng(2,"Sourav",30);
+        SoftwareEng se3=new SoftwareEng(3,"Sachin",28);
+        Technology t1=new Technology(123,"Java");
+        Technology t2=new Technology(124,"HTML");
+        Technology t3=new Technology(125,"CSS");
+        Technology t4=new Technology(126,"SQL");
+        session.save(se1);
+        session.save(se2);
+        session.save(se3);
+        session.save(t1);
+        session.save(t2);
+        session.save(t3);
+        session.save(t4);
+        tr.commit();
+        System.out.println("Storing Completed");
+    }
+}

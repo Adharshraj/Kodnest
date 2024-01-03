@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function Addition(num1,num2){
+            let res1=num1+num2
+            console.log("Addition result is: "+res1)
+        }
+        function Substraction(num1,num2){
+            let res1=num1-num2
+            console.log("Substraction result is: "+res1)
+        }
+        function Multiplication(num1,num2){
+            let res1=num1*num2
+            console.log("Multiplication result is: "+res1)
+        }
+        function Division(num1,num2){
+            let res1=num1/num2
+            console.log("Division result is: "+res1)
+        }
+        let num1=parseInt(prompt("Enter num1"))
+        let num2=parseInt(prompt("Enter num2"))
+        let choice=parseInt(prompt("Enter choice"))
+        switch(choice){
+            case 1:Addition(num1,num2)
+            break;
+            case 2:Substraction(num1,num2)
+            break;
+            case 3:Multiplication(num1,num2)
+            break;
+            case 4:Division(num1,num2)
+            break;
+        }
+    </script>
+</body>
+</html>

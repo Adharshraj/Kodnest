@@ -1,0 +1,28 @@
+body{
+    background-image: url(130738-top-ultra-hd-wallpapers-4k-3840x2160-for-desktop.jpg);
+    background-size: cover;
+}
+#div1{
+    height: 50px;
+    width: 50px;
+    background-image: url(4K-Nature-Desktop-Wallpapers.jpg);
+    background-size: cover;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    background-image: url(26731_4k-ultra-hd-desktop-wallpapers-hd-3840x2160-free-desktop_3840x2160_h.jpg);
+    background-size: cover;
+}
+#div3{
+    height: 150px;
+    width: 150px;
+    background-image: url(130738-top-ultra-hd-wallpapers-4k-3840x2160-for-desktop.jpg);
+    background-size: cover;
+}
+.divclass1{
+    height: 200px;
+    width: 200px;
+    background-image: url(206225-ultra-hd-wallpapers-4k-1920x1080-macbook\ \(1\).jpg);
+    background-size: cover;
+}

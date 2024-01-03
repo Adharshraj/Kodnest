@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\adhar\Desktop\Frameworks\HibernateMTM2Mapping"/>
+			<item value="C:\Users\adhar\Desktop\Frameworks\HibernateOTM2Mapping"/>
+			<item value="C:\Users\adhar\Desktop\Frameworks\HibernateMTM2Mapping\src\main\java\com\learn\Hibernate\HibernateMTM2Mapping\App.java"/>
+			<item value="C:\Users\adhar\Desktop\Frameworks\HibernateOTMMapping"/>
+			<item value="C:\Users\adhar\Desktop\Frameworks\HibernateOTMMapping\src\main\java\com\learn\Hibernate\HibernateOTMMapping"/>
+			<item value="C:\Users\adhar\Desktop\Frameworks\HibernateProject3"/>
+			<item value="C:\Users\adhar\Desktop\Frameworks\HibernateProjects\src\main\java\hibernate.cfg.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.learn.Spring.SpringPjrt1"/>
+			<item value="com.learn.Hibernate.HibernateThreadOperations"/>
+			<item value="com.learn.Hibernate.HibernateOTM2Mapping"/>
+			<item value="com.learn.Hibernate.HibernateMTM2Mapping"/>
+		</list>
+		<list key="groupId">
+			<item value="com.learn.Spring"/>
+			<item value="com.learn.Hibernate"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringPjrt1"/>
+			<item value="HibernateThreadOperations"/>
+			<item value="HibernateOTM2Mapping"/>
+			<item value="HibernateMTM2Mapping"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

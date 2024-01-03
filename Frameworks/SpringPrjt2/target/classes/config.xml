@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ <!-- SETTER INJECTION -->
+ <bean class="com.learn.Spring.SpringPrjt2.Laptop" id="L1">
+ <property name="SrNo" value="1231"></property>
+ <property name="Brand" value="HP"></property>
+ <property name="Cost" value="79999.0f"></property>
+ </bean>
+ <!-- CONSTRUCTOR INJECTION -->
+ <bean class="com.learn.Spring.SpringPrjt2.Laptop" id="L2">
+	<constructor-arg value="1232"></constructor-arg>
+	<constructor-arg value="MAC"></constructor-arg>
+	<constructor-arg value="249999.0f"></constructor-arg>
+ </bean>
+ 
+ </beans>

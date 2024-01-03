@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+    background-size: cover;
+}
+img{
+    height: 50%;
+    width: 50%;
+    border: 10px solid;
+    border-top: 10px yellow solid;
+    border-radius: 100px;
+    border-top-style: dotted;
+}
