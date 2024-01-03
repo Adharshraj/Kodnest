@@ -1,0 +1,6 @@
+INDEX VERSION 1.134+C:\Users\adhar\Desktop\Learnjava\.metadata\.plugins\org.eclipse.jdt.core
+3900602292.index
+3038290658.index
+1865797976.index
+2223314524.index
+2453645386.index

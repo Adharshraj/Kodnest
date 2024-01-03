@@ -1,0 +1,30 @@
+package GreatestCommonDivisor;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scan =new Scanner(System.in);
+		System.out.println("Enter first number");
+		int a = scan.nextInt();
+		System.out.println("Enter second number");
+		int b = scan.nextInt();
+		findGCD(a, b);
+
+	}
+	public static void findGCD(int a, int b) 
+	{
+		if(a < b ) {
+			for(int i=2;i<a;i++) {
+				if(a%i==0) {
+					if(b%i==0) {
+						System.out.print("Gcd is = ");
+					}
+				}
+				System.out.println(i);
+			}
+	}
+	}
+}
+

@@ -1,0 +1,18 @@
+package PalindromeChecker;
+
+public class PalindromeCheck {
+	public static void Palicheck(int a) {
+		int d=1;
+		int c=0;
+		int b=a;
+		while(a>0) {
+			c=a%10;
+			d=(d*10)+c;
+			a=a/10;
+		}
+		System.out.println(b);
+		System.out.println(d);
+		}
+	}
+
+

@@ -1,0 +1,23 @@
+package PalindromeChecker;
+
+public class PalindromeCheck {
+	public static void Palicheck(int a) {
+		int count=0;
+		int d=1;
+		int c=1;
+		int b=a;
+		while(a>0) {
+			a=a/10;
+			count++;
+		}
+		while(count>0) {
+			d=d*10;
+		}
+		while(count>1) {
+			c=c*10;
+		}
+		System.out.println((b/d) == (b%c));
+		}
+	}
+
+}
