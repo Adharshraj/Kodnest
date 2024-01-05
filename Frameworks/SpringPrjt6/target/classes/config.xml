@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ <bean class="com.learn.Spring.SpringPrjt6.Engine" id="eng1">
+ <property name="engNo" value="64812"></property>
+ <property name="engType" value="diesel"></property>
+ </bean>
+ <bean class="com.learn.Spring.SpringPrjt6.Car" id="C1" autowire="byType">
+ 
+ </bean>
+ 
+ </beans>

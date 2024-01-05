@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ <bean class="com.learn.Spring.SpringPrjt5.Mobile" id="M1">
+ <property name="brand" value="MI"></property>
+ <property name="cost" value="15000"></property>
+ <property name="ramSize" value="6"></property>
+ </bean>
+ <bean class="com.learn.Spring.SpringPrjt5.Mobile" id="M2">
+ <property name="brand" value="Apple"></property>
+ <property name="cost" value="120000"></property>
+ <property name="ramSize" value="16"></property>
+ </bean>
+ <bean class="com.learn.Spring.SpringPrjt5.Mobile" id="M3">
+ <property name="brand" value="Realme"></property>
+ <property name="cost" value="25000"></property>
+ <property name="ramSize" value="8"></property>
+ </bean>
+ <bean class="com.learn.Spring.SpringPrjt5.Person" id="P1">
+ <property name="m" ref="M1"></property>
+ </bean>
+ <bean class="com.learn.Spring.SpringPrjt5.Person" id="P2">
+ <property name="m" ref="M2"></property>
+ </bean>
+ <bean class="com.learn.Spring.SpringPrjt5.Person" id="P3">
+ <property name="m" ref="M3"></property>
+ </bean>
+ 
+ </beans>
